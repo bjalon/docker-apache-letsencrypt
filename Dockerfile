@@ -1,5 +1,7 @@
 FROM phusion/baseimage:0.10.1
-MAINTAINER BirgerK <birger.kamp@gmail.com>
+LABEL maintainer="BirgerK <birger.kamp@gmail.com>"
+LABEL user="Benjamin JALON <bjalon@qastia.com>"
+LABEL site="www.qastia.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LETSENCRYPT_HOME /etc/letsencrypt
