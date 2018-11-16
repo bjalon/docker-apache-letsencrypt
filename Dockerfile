@@ -5,8 +5,8 @@ LABEL site="www.qastia.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LETSENCRYPT_HOME /etc/letsencrypt
-ENV DOMAINS ""
-ENV WEBMASTER_MAIL ""
+ENV DOMAINS "www.qastia.com"
+ENV WEBMASTER_MAIL "bjalon@qastia.com"
 
 # Manually set the apache environment variables in order to get apache to work immediately.
 RUN echo $WEBMASTER_MAIL > /etc/container_environment/WEBMASTER_MAIL && \
